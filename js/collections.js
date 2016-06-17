@@ -6,7 +6,7 @@ Column = Backbone.Collection.extend({
     $('.board').append("<div class=column id=" + globalColumn + "> </div>");
     this.label = "new column label";
     this.id = globalColumn;
-    globalColumn++;
+    // globalColumn++;
   },
 
   getLabel: function(){

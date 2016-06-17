@@ -1,8 +1,10 @@
+body{
+  background-color: rgb(180,180,180);
+}
 div{
   font-family: 'Open Sans', sans-serif;
 }
 .board{
-  background-color: rgb(180,180,180);
   height: 500px;
 }
 .column{
