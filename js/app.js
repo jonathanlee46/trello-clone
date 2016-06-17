@@ -1,11 +1,13 @@
 console.log("app.js loaded"); //test
 globalColumn = 0;
-globalCard = 0;
+// globalCard = 0;
 
 
 console.log("ready firing");
 var columnArray = [];
 var column = new Column();
+columnArray.push(column);
+
 var card = new Card();
 column.add(card);
 
@@ -18,5 +20,6 @@ view.render(); //initial render
 
 //view auto-render on add test
 var card2 = new Card()
+card2.getId();
 card2.setTask("hello");
 column.add(card2);

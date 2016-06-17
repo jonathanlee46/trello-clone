@@ -1,4 +1,6 @@
 console.log("models.js loaded");
+globalCard = 0;
+
 Card = Backbone.Model.extend({
   // idAttribute:"_id", //id# accessor
   initialize: function(){
@@ -13,9 +15,9 @@ Card = Backbone.Model.extend({
   getTask: function(){
     return this.get("task");
   },
-  // getModelId: function(){
-  //   return this.get("modelId");
-  // },
+  getId: function(){
+    return this.id;
+  },
   setTask: function(newTask){
     this.set({task: newTask});
   },
