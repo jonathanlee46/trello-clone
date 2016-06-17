@@ -16,9 +16,4 @@ Column = Backbone.Collection.extend({
   setLabel: function(input){
     return this.label = input;
   },
-
-  printLabel: function(){
-
-    
-  }
 })
