@@ -9,6 +9,10 @@ div{
   background-color: rgb(255,255,255);
   height: 450px;
   width: 200px;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+ul{
+  padding: 0;
+  margin: 0;
 }
