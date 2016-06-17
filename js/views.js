@@ -1,30 +1,24 @@
-CardCollectionView = Backbone.View.extend({
+console.log("views.js loaded");
+
+CardView = Backbone.View.extend({
+  tagName: 'li',
+  
+  
+  
   initialize: function(){
     var that = this;
-    // this._cardViews = [];
-
-    // this.collection.each(function(card){
-    //   that._cardViews.push(new UpdatingCardView({
-    //     model: card,
-    //     tagName: 'li'
-    //   }));
-    // })
+    this.render();
   },
 
   render: function(){
     var that = this;
+    var id = this.collection.id;
 
-    $('.board').empty();
-
-    _(this._cardViews).each(function(cv) {
-      $(that.el).append(cv.render().el);
-    });
-  }
+    for (var i = 0; i < this.collection.length; i++ ){
+      var tempCard = this.collection.at(i);
+      $('#'+id).append(
+        tempCard.getTask() + "<br>"
+      );
+    }
+  },
 });
-
-
-
-
-// var BoardView = Backbone.View.extend({
-
-// })
