@@ -1,0 +1,36 @@
+{
+  "name": "trello-clone",
+  "version": "0.1.5",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.3.3",
+    "express": "4.13.3"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanlee46/trello-clone.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanlee46/trello-clone/issues"
+  },
+  "homepage": "https://github.com/jonathanlee46/trello-clone#readme",
+  "devDependencies": {
+    "grunt-contrib-csslint": "^1.0.0",
+    "grunt-contrib-jasmine": "^1.0.3",
+    "grunt-contrib-jshint": "^1.0.0"
+  },
+  "author": ""
+}
