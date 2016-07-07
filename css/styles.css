@@ -1,20 +1,25 @@
 body{
   background-color: rgb(180,180,180);
 }
+
 div{
   font-family: 'Open Sans', sans-serif;
 }
+
 .board{
   height: 500px;
 }
+
 .column{
   border-radius: 3px;
   background-color: rgb(255,255,255);
   height: 450px;
   width: 200px;
   margin-left: 10px;
+  margin-bottom: 10px;
   float: left;
 }
+
 ul{
   padding: 0;
   margin: 0;

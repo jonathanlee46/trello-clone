@@ -5,6 +5,7 @@ globalColumn = 0;
 $( document ).ready(function() {
     console.log( "document ready!");
     addColumnButton();
+    addCardButton();
 });
 
 var addColumnButton = function(){
@@ -20,6 +21,13 @@ var addColumnButton = function(){
     viewArray.push(view);
 
     globalColumn++;
+  })
+}
+
+var addCardButton = function(){
+  $('.newCard').click(function(e){
+    e.preventDefault();
+    
   })
 }
 
